@@ -20,6 +20,8 @@ The following figure shows comparison with other methods.
 
 ![comparison](./images/readme/compare.png)
 
+A video demo could be found [here](https://vimeo.com/303954291).
+
 # Dependencies
 
 **Important**
