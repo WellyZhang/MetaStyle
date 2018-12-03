@@ -1,11 +1,9 @@
 # MetaStyle
 
-MetaStyle: Three-Way Trade-Off Among Speed, Flexibility, and Quality in Neural Style Transfer
-
 This repo contains the PyTorch code for our AAAI 2019 paper.  
 
-[MetaStyle: Three-Way Trade-Off Among Speed, Flexibility, and Quality in Neural Style Transfer](http://wellyzhang.github.io/attach/aaai19zhang.pdf)
-Chi Zhang, Yixin Zhu, Song-Chun Zhu
+[MetaStyle: Three-Way Trade-Off Among Speed, Flexibility, and Quality in Neural Style Transfer](http://wellyzhang.github.io/attach/aaai19zhang.pdf)  
+Chi Zhang, Yixin Zhu, Song-Chun Zhu  
 To appear in *Proceedings of the Thirty-Third AAAI Conference on Artificial Intelligence (AAAI)*, 2019.  
 
 In this paper, we propose to combine neural style transfer with bilevel optimization to trade off speed, flexibility, and quality. In contrast to previous methods, our approach could handle arbitrary artistic style (flexibility) in a real-time manner (speed) and achieves good image quality comparable to the impressive but slow iterative-optimization-based method proposed in Gatys *et al*. (quality). We instantiate the model using an image transformation network and solve it by Adam. The bilevel optimization encourages the model to first find the style-free representation of images (hence the name) and after super-fast model adaptation, we could have a model tailored to a style specifically. For further details, please refer to our [paper](http://wellyzhang.github.io/attach/aaai19zhang.pdf). 
@@ -34,7 +32,7 @@ To train a model of your own:
 
 1. First download a content image dataset and a style image dataset. In this paper, we use [MS-COCO](http://cocodataset.org/#download) and [WikiArt](https://www.kaggle.com/c/painter-by-numbers). 
 2. Run
-```python
+```Python
 python src/main.py train --content-dataset <path-to-your-content-dataset> --style-dataset <path-to-your-style-dataset> --cuda 1
 ```
 
@@ -45,7 +43,7 @@ We provide our pre-trained model [here](https://drive.google.com/file/d/1QuO8PAi
 ## Fast Training
 
 To adapt the model to a new style, run
-```python
+```Python
 python src/main.py train --content-dataset <path-to-your-content-dataset> --style-image <path-to-your-style-image> --model <path-to-your-trained-model> --cuda 1
 ```
 
