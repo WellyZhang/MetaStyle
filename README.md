@@ -56,7 +56,7 @@ Usually fast adaptation requires only 100 to 200 post update steps and could be 
 ## Testing
 
 To stylize a content image, run
-```python
+```
 python src/main.py test --content-image <path-to-your-content-image> --output-image <path-to-your-output-image> --model <path-to-your-trained-model> --cuda 1
 ```
 
@@ -81,8 +81,8 @@ This project is impossible to finish without the help of my colleagues and the f
 * [PyTorch MAML](https://github.com/katerakelly/pytorch-maml)
 * [OpenAI Reptile](https://blog.openai.com/reptile/)
 * [AdaIN](https://github.com/xunhuang1995/AdaIN-style)
-* [PyTorch AdaIn](https://github.com/naoto0804/pytorch-AdaIN)
+* [PyTorch AdaIN](https://github.com/naoto0804/pytorch-AdaIN)
 
 # License
 
-MetaStyle is freely available for free non-commercial use, and may be redistributed under these conditions. Please see the [license](./LICENSE) for further details. For commercial license, please contact the authors.
+MetaStyle is freely available for non-commercial use, and may be redistributed under these conditions. Please see the [license](./LICENSE) for further details. For commercial license, please contact the authors.
