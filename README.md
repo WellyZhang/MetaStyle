@@ -4,7 +4,7 @@ This repo contains the PyTorch code for our AAAI 2019 paper.
 
 [MetaStyle: Three-Way Trade-Off Among Speed, Flexibility, and Quality in Neural Style Transfer](http://wellyzhang.github.io/attach/aaai19zhang.pdf)  
 Chi Zhang, Yixin Zhu, Song-Chun Zhu  
-To appear in *Proceedings of the AAAI Conference on Artificial Intelligence (AAAI)*, 2019.  
+*Proceedings of the AAAI Conference on Artificial Intelligence (AAAI)*, 2019.  
 
 In this paper, we propose to combine neural style transfer with bilevel optimization to trade off speed, flexibility, and quality. In contrast to previous methods, our approach could handle arbitrary artistic style (flexibility) in a real-time manner (speed) and achieves good image quality comparable to the impressive but slow iterative-optimization-based method proposed in Gatys *et al*. (quality). We instantiate the model using an image transformation network and solve it by Adam. The bilevel optimization encourages the model to first find the style-free representation of images (hence the name) and after super-fast model adaptation, we could have a model tailored to a style specifically. For further details, please refer to our [paper](http://wellyzhang.github.io/attach/aaai19zhang.pdf). 
 
