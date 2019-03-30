@@ -67,7 +67,7 @@ python src/main.py test --content-image <path-to-your-content-image> --output-im
 If you find the paper and the code helpful, please cite us.
 ```
 @inproceedings{zhang2019metastyle,
-    author={Zhang, Chi, Zhu, Yixin, Zhu, Song-Chun},
+    author={Zhang, Chi and Zhu, Yixin and Zhu, Song-Chun},
     title={MetaStyle: Three-Way Trade-Off Among Speed, Flexibility, and Quality in Neural Style Transfer},
     booktitle={Proceedings of the AAAI Conference on Artificial Intelligence (AAAI)},
     year={2019}
