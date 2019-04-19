@@ -50,7 +50,7 @@ We provide our pre-trained model [here](https://drive.google.com/file/d/1QuO8PAi
 
 To adapt the model to a new style, run
 ```
-python src/main.py train --content-dataset <path-to-your-content-dataset> --style-image <path-to-your-style-image> --model <path-to-your-trained-model> --cuda 1
+python src/main.py fast --content-dataset <path-to-your-content-dataset> --style-image <path-to-your-style-image> --model <path-to-your-trained-model> --cuda 1
 ```
 
 Usually fast adaptation requires only 100 to 200 post update steps and could be done in less than 30 seconds, depending on the GPU you have.
