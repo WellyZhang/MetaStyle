@@ -44,7 +44,7 @@ python src/main.py train --content-dataset <path-to-your-content-dataset> --styl
 
 Usually, the default parameters should work. However, you are always welcome to fine tune yourself. The training process could be monitored using Tensorboard. Since bilevel optimization requires "second-order" gradient computation, the training process might take a long time depending on the GPU you have, and the GPU memory consumption is huge. 
 
-We provide our pre-trained model [here](https://drive.google.com/file/d/1QuO8PAi5AFHt4gFU2f2uyoI7oyUbFtmV/view?usp=sharing).
+We provide our pre-trained model [here](https://pan.baidu.com/s/1kb6gvnkWa3ivY_1gYzy-dQ?pwd=jytg).
 
 ## Fast Training
 
